@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0F172A;
+    color: #E2E8F0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1E293B;
+    padding: 15px 20px;
+}
+
+header p {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+}
+
+nav a {
+    color: #38BDF8;
+    margin-right: 15px;
+    text-decoration: underline;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#accueil {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#accueil img {
+    max-width: 220px;
+    height: auto;
+    border-radius: 8px;
+}
+
+#accueil h1 {
+    font-size: 42px;
+    color: #38BDF8;
+    margin: 15px 0 10px 0;
+}
+
+h2,
+h3 {
+    color: #38BDF8;
+}
+
+a {
+    color: #38BDF8;
+}
+
+.carte {
+    background-color: #1E293B;
+    border: 2px solid #38BDF8;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.carte img {
+    float: right;
+    width: 50px;
+    height: 50px;
+}
+
+.armaz {
+    background-image: linear-gradient(rgba(30, 41, 59, 0.85), rgba(30, 41, 59, 0.85)), url('images/armaz.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.deadsec {
+    background-image: linear-gradient(rgba(30, 41, 59, 0.85), rgba(30, 41, 59, 0.85)), url('images/deadsec_back.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.tarkov {
+    background-image: linear-gradient(rgba(30, 41, 59, 0.85), rgba(30, 41, 59, 0.85)), url('images/tarkov_back.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.yboost {
+    background-image: linear-gradient(rgba(30, 41, 59, 0.85), rgba(30, 41, 59, 0.85)), url('images/yboost_back.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.aethelgard {
+    background-image: linear-gradient(rgba(30, 41, 59, 0.85), rgba(30, 41, 59, 0.85)), url('images/aethelgard_back.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+#contact h1 {
+    color: #38BDF8;
+}
+
+footer {
+    background-color: #1E293B;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
